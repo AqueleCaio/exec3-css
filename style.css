@@ -59,6 +59,7 @@ main > .buttons > .symbols > div{
     text-align: center;
     font-size: 30px;
     margin-left: 8px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.342);
 }
 
 main > .buttons > .numbers > div{
@@ -69,6 +70,7 @@ main > .buttons > .numbers > div{
     height: 40px;
     font-size: 30px;
     margin: 10px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.301);
 }
 
 main > .buttons > .symbols div:hover{
