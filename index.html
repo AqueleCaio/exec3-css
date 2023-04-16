@@ -12,28 +12,29 @@
         <section class="viewer">
             <div>0</div> <!-- Setando um 0 para sempre ficar no visor quando estiver vazio -->
         </section>
-        <section class="symbols">
-            <div class="button" id="plus"> + </div>
-            <div class="button" id="less"> - </div>
-            <div class="button" id="multiply"> x </div>
-            <div class="button" id="divide"> / </div>
-            <div class="button" id="equal"> = </div>
-
-        </section>
-        <section class="numbers">
-            <div class="button" id="number_one">1</div>
-            <div class="button" id="number_two">2</div>
-            <div class="button" id="number_tree">3</div>
-            <div class="button" id="number_four">4</div>
-            <div class="button" id="number_five">5</div>
-            <div class="button" id="number_six">6</div>
-            <div class="button" id="number_seven">7</div>
-            <div class="button" id="number_eight">8</div>
-            <div class="button" id="number_nine">9</div>
-            <div class="button" id="number_zero">0</div>
-            <div class="button" id="point"> . </div>
-            <div class="button" id="delete"> C </div>
-        </section>
+        <div class="buttons">
+            <section class="symbols">
+                <div id="plus"> + </div>
+                <div id="less"> - </div>
+                <div id="multiply"> x </div>
+                <div id="divide"> ÷ </div>
+                <div id="equal"> <p>=</p> </div> <!-- "=" entre <p></p> para manipular a posição do símbolo em si, sem alterar a da caixa(div) -->
+            </section>
+            <section class="numbers">
+                <div id="number_one">7</div>
+                <div id="number_two">8</div>
+                <div id="number_tree">9</div>
+                <div id="number_four">4</div>
+                <div id="number_five">5</div>
+                <div id="number_six">6</div>
+                <div id="number_seven">1</div>
+                <div id="number_eight">2</div>
+                <div id="number_nine">3</div>
+                <div id="number_zero">0</div>
+                <div id="point"> . </div>
+                <div id="delete"> C </div>
+            </section>
+        </div> 
     </main>
 </body>
 </html>
