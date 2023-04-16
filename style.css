@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.336);
+}
+
+.viewer{
+    background-color: gray;
+    padding-left: 10px;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+}
+
+.viewer > div{
+    position: relative;
+    left: 90%;
+    top: 0%;
+    font-size: 55px;
+}
+
+main > section.symbols {
+    display: flex;
+    flex-direction: row;    
+    padding: 10px;
+}
+
+main > section.symbols > .button{
+    margin-right: 50px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(200, 239, 241);
+    border-radius: 50px;
+}
+
+main > section.numbers{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
