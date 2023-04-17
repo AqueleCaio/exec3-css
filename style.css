@@ -14,6 +14,8 @@ main{
     background-color: rgb(194, 192, 192);
     overflow: hidden;
     box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.514);
+
+    user-select: none;
 }
 
 .viewer{
@@ -52,7 +54,7 @@ main > .buttons > .numbers{
 
 main > .buttons > .symbols > div{
     padding: 8px;
-    background-color: aquamarine;
+    background-color: #7fffd4;
     border-radius: 50%;
     width: 40px;
     height: 40px;

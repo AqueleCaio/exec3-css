@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <main>
@@ -13,14 +14,14 @@
             <div>0</div> <!-- Setando um 0 para sempre ficar no visor quando estiver vazio -->
         </section>
         <div class="buttons">
-            <section class="symbols">
+            <section class="symbols" id="iSymbol" onclick="clickButton()">
                 <div id="plus"> + </div>
                 <div id="less"> - </div>
                 <div id="multiply"> x </div>
                 <div id="divide"> ÷ </div>
                 <div id="equal"> <p>=</p> </div> <!-- "=" entre <p></p> para manipular a posição do símbolo em si, sem alterar a da caixa(div) -->
             </section>
-            <section class="numbers">
+            <section class="numbers" id="iNumber">
                 <div id="number_seven">7</div>
                 <div id="number_eight">8</div>
                 <div id="number_nine">9</div>
