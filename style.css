@@ -8,27 +8,26 @@ main{
     top: 50%;
     transform: translate(-50%, -50%);
 
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 440px;
-    height: 400px;
-    background-color: rgba(128, 128, 128, 0.336);
+    width: 400px;
+    height: 450px;
+    background-color: rgb(194, 192, 192);
+    overflow: hidden;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.514);
 }
 
 /* ################################################ */
 
 .viewer{
-    background-color: gray;
+    background-color: rgb(56, 55, 55);
     padding-left: 10px;
     height: 60px;
-    border-radius: 20px 20px 0 0;
 }
 
 .viewer > div{
     position: relative;
     left: 90%;
-    top: 0%;
     font-size: 55px;
+    color: white;
 }
 
 /* ############################################### */
@@ -44,12 +43,8 @@ main > section.symbols > .buttons{
     margin-right: 50px;
     padding: 10px;
     font-size: 30px;
-    background-color: rgb(200, 239, 241);
-    border-radius: 50px;
-}
-
-#equal{
-    background-color: orange;
+    margin-left: 8px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.342);
 }
 
 /* ############################################### */
@@ -71,5 +66,28 @@ main > section.numbers > .button{
     font-size: 40px;
 }
 
+main > .buttons > .symbols div:hover{
+    cursor: pointer;
+}
 
+main > .buttons > .numbers div:hover{
+    cursor: pointer;
+}
 
+/* ########################################### */
+
+main > .buttons > .symbols #equal{
+    position: absolute;
+    border-radius: 150px;
+    left: 78%;
+    top: 31%;
+    background-color: orange;
+    height: 270px;
+    width: 40px;
+}
+
+main > .buttons > .symbols #equal > p{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
