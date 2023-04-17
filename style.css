@@ -8,14 +8,13 @@ main{
     top: 50%;
     transform: translate(-50%, -50%);
 
+    border-radius: 20px;
     width: 400px;
     height: 450px;
     background-color: rgb(194, 192, 192);
     overflow: hidden;
     box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.514);
 }
-
-/* ################################################ */
 
 .viewer{
     background-color: rgb(56, 55, 55);
@@ -30,40 +29,48 @@ main{
     color: white;
 }
 
-/* ############################################### */
+/* ########################################### */
 
-main > section.symbols {
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px;   
-    margin: 10px 0 10px 25px;
+main > .buttons{
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562);
     text-align: center;
 }
 
-main > section.symbols > .buttons{
-    margin-right: 50px;
-    padding: 10px;
+main > .buttons > .symbols{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+
+main > .buttons > .numbers{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    width: 300px;
+}
+
+/* ########################################### */
+
+main > .buttons > .symbols > div{
+    padding: 8px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
     font-size: 30px;
     margin-left: 8px;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.342);
 }
 
-/* ############################################### */
-
-main > section.numbers{
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    width: 60%;
-}
-
-main > section.numbers > .button{
+main > .buttons > .numbers > div{
+    padding: 8px;
     background-color: white;
     border-radius: 50%;
-    width: 60px;
-    height: 50px;
-    margin: auto;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin: 10px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.301);
 }
 
 main > .buttons > .symbols div:hover{
