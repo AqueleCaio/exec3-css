@@ -75,12 +75,14 @@ main > .buttons > .numbers > div{
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.301);
 }
 
-main > .buttons > .symbols div:hover{
+main > .buttons > .symbols div:hover, 
+main > .buttons > .numbers div:hover{
     cursor: pointer;
 }
 
-main > .buttons > .numbers div:hover{
-    cursor: pointer;
+main > .buttons > .symbols div:active,
+main > .buttons > .numbers div:active{
+    background-color: rgba(40, 121, 146, 0.438);
 }
 
 /* ########################################### */
@@ -93,6 +95,10 @@ main > .buttons > .symbols #equal{
     background-color: orange;
     height: 270px;
     width: 40px;
+}
+
+main > .buttons > .symbols #equal:active{
+    background-color: rgba(247, 197, 103, 0.671);
 }
 
 main > .buttons > .symbols #equal > p{
