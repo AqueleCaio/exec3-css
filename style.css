@@ -18,6 +18,10 @@ main{
     user-select: none;
 }
 
+#selected_number{
+    width: 10%;
+}
+
 #viewer{
     background-color: rgb(56, 55, 55);
     padding-left: 10px;
@@ -26,7 +30,7 @@ main{
 
 #viewer > div{
     position: relative;
-    left: 90%;
+    left: 1rem;
     font-size: 55px;
     color: white;
 }
