@@ -30,7 +30,7 @@ main{
 
 #viewer > div{
     position: relative;
-    left: 1rem;
+    left: 90%;
     font-size: 55px;
     color: white;
 }
